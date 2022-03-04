@@ -18,20 +18,4 @@ public class AddressBookApplication {
         SpringApplication.run(AddressBookApplication.class, args);
     }
 
-    @Bean
-    public CommandLineRunner demo(BuddyInfoRepository repository){
-
-        return (args) -> {
-            repository.save(new BuddyInfo("Justin", "Ottawa", "6132342141"));
-
-            log.info("Buddies found with findAll():");
-            log.info("-------------------------------");
-            for (BuddyInfo buddy : repository.findAll()) {
-                log.info(buddy.toString());
-            }
-            log.info("");
-        };
-
-    }
-
 }
