@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="mainFrame" class="spring.classes.MainFrame" init-method="init">
+        <property name="title">
+            <value>Address Book</value>
+        </property>
+        <property name="JMenuBar">
+            <ref bean="menuBar"/>
+        </property>
+        <property name="visible">
+            <value>true</value>
+        </property>
+        <property name="list">
+            <ref bean="list"/>
+        </property>
+        <property name="addressBook">
+            <ref bean="addressBook"/>
+        </property>
+
+    </bean>
+    <bean id="menuBar" class="spring.classes.MenuBar" init-method="init">
+        <property name="menu">
+            <ref bean="menu"/>
+        </property>
+    </bean>
+    <bean id="menu" class="spring.classes.Menu" init-method="init">
+        <constructor-arg>
+            <value>Edit</value>
+        </constructor-arg>
+        <property name="item1">
+            <ref bean="add"/>
+        </property>
+        <property name="item2">
+            <ref bean="remove"/>
+        </property>
+    </bean>
+    <bean id="add" class="spring.classes.MenuItem" init-method="init">
+        <constructor-arg>
+            <value>Add</value>
+        </constructor-arg>
+        <property name="visible">
+            <value>true</value>
+        </property>
+        <property name="listener">
+            <ref bean="mainFrame"/>
+        </property>
+
+    </bean>
+    <bean id="remove" class="spring.classes.MenuItem" init-method="init">
+        <constructor-arg>
+            <value>Remove</value>
+        </constructor-arg>
+        <property name="visible">
+            <value>true</value>
+        </property>
+        <property name="listener">
+            <ref bean="mainFrame"/>
+        </property>
+    </bean>
+    <bean id="list" class="javax.swing.JList">
+        <constructor-arg>
+            <ref bean="addressBook"/>
+        </constructor-arg>
+        <property name="visible">
+            <value>true</value>
+        </property>
+    </bean>
+
+    <bean id="addressBook" class="spring.classes.AddressBook">
+
+    </bean>
+</beans>

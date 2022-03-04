@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Buddy Info Form Success</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'Name: ' + ${buddy.name}" />
+<p th:text="'Address: ' + ${buddy.address}" />
+<p th:text="'Phone Number: ' + ${buddy.phoneNumber}" />
+<a href="/buddyForm">Submit another message</a>
+<a href="/addressBook">View address book</a>
+</body>
+</html>
