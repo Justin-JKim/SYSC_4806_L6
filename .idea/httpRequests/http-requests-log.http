@@ -1,0 +1,276 @@
+GET http://localhost:8080/getBuddies
+
+<> 2022-02-18T225053.200.json
+
+###
+
+GET http://localhost:8080/getBuddies
+
+<> 2022-02-18T225033.200.json
+
+###
+
+GET http://localhost:8080/getBuddies
+
+<> 2022-02-18T220202.200.json
+
+###
+
+POST http://localhost:8080/add-buddy
+
+<> 2022-02-18T210519.200.json
+
+###
+
+POST http://localhost:8080/add-buddy
+
+###
+
+POST http://localhost:8080/buddyForm
+
+<> 2022-02-18T204355.200.html
+
+###
+
+GET http://localhost:8080/buddyForm
+
+<> 2022-02-18T204350.200.html
+
+###
+
+POST http://localhost:8080/buddyForm
+
+<> 2022-02-18T204319.200.html
+
+###
+
+GET http://localhost:8080/buddyForm
+
+<> 2022-02-18T203605.200.html
+
+###
+
+GET http://localhost:8080/buddyForm
+
+###
+
+GET http://localhost:8080/buddyForm
+
+<> 2022-02-18T201808.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Noah
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Noah
+
+###
+
+POST http://localhost:8080/add-buddy?name=Jooey&address=home&phoneNumber=123
+
+<> 2022-02-11T193247.200.json
+
+###
+
+GET http://localhost:8080/add-buddy
+
+<> 2022-02-11T193242.405.json
+
+###
+
+GET http://localhost:8080/add-buddy
+
+<> 2022-02-11T193236.405.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Noah
+
+###
+
+DELETE http://localhost:8080/buddies/Justin
+
+###
+
+POST http://localhost:8080/add-buddy?name=Jooey&address=home&phoneNumber=123
+
+<> 2022-02-11T191401.200.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Noah
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T191053.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190904.500.json
+
+###
+
+DELETE http://localhost:8080/buddies/Justin
+
+<> 2022-02-11T190646.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190625.404.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190505.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190502.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190448.500.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Jooey&address=home&phoneNumber=123
+
+<> 2022-02-11T190448.200.json
+
+###
+
+POST http://localhost:8080/buddies
+
+<> 2022-02-11T190448.400.json
+
+###
+
+GET http://localhost:8080/add-buddy
+
+<> 2022-02-11T190448-1.405.json
+
+###
+
+GET http://localhost:8080/add-buddy
+
+<> 2022-02-11T190448.405.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190311.500.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Jooey&address=home&phoneNumber=123
+
+<> 2022-02-11T190311.200.json
+
+###
+
+POST http://localhost:8080/buddies
+
+<> 2022-02-11T190310.400.json
+
+###
+
+GET http://localhost:8080/add-buddy
+
+<> 2022-02-11T190310-1.405.json
+
+###
+
+GET http://localhost:8080/add-buddy
+
+<> 2022-02-11T190310.405.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Justin
+
+<> 2022-02-11T190306.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/Jooey
+
+<> 2022-02-11T190244.500.json
+
+###
+
+DELETE http://localhost:8080/remove-buddy/{Jooey}
+
+###
+
+DELETE http://localhost:8080/remove-buddy/{{Jooey}}
+
+###
+
+POST http://localhost:8080/add-buddy?name=Jooey&address=home&phoneNumber=123
+
+<> 2022-02-11T190203.200.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Bob&address=home&phoneNumber=123
+
+<> 2022-02-11T190144.200.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Bob&address=home&phoneNumber=123
+
+<> 2022-02-11T190124.200.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Bob&address=home&phoneNumber=123
+
+<> 2022-02-11T190104.404.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Bob&address=home&phoneNumber=123
+
+<> 2022-02-11T190101.404.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Bob&address=home&phoneNumber=123
+
+<> 2022-02-11T190057.404.json
+
+###
+
+POST http://localhost:8080/add-buddy?name=Bob&address=home&phoneNumber=123
+
+<> 2022-02-11T190047.404.json
+
+###
+
+POST http://localhost:8080/buddies
+
+<> 2022-02-11T185817.200.json
+
+###
+
+GET http://localhost:8080/buddyInfos
+

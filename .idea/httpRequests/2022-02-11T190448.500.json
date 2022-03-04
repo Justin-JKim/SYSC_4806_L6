@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-02-12T00:04:48.778+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/remove-buddy/Justin"
+}
