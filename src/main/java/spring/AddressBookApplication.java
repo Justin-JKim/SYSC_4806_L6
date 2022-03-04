@@ -22,9 +22,7 @@ public class AddressBookApplication {
     public CommandLineRunner demo(BuddyInfoRepository repository){
 
         return (args) -> {
-            repository.save(new BuddyInfo("Justin", "Ottawa", "6132421"));
-            repository.save(new BuddyInfo("Noah", "Nepean", "614312"));
-            repository.save(new BuddyInfo("Daniel", "Barrhaven", "613413"));
+            repository.save(new BuddyInfo("Justin", "Ottawa", "6132342141"));
 
             log.info("Buddies found with findAll():");
             log.info("-------------------------------");
